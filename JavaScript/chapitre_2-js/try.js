@@ -15,5 +15,15 @@ $(function() {
     var $this = $(this);
     $this.remove();
   });
+    
+    var $button = $('#clear');
+    
+$button.on('click', function (){
+    console.log("pewpew");
+   
+    $('input:text').val('');
+});
+
+    
 
 });
